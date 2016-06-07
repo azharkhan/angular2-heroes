@@ -1,5 +1,7 @@
 <ul class="heroes-list">
-    <li *ngFor="let hero of heroes">
+    <li *ngFor="let hero of heroes" 
+        (click)="selectHero(hero)"
+        [class.selected]="selectedHero === hero">
         <span>{{ hero.name }}</span>
     </li>
 </ul>

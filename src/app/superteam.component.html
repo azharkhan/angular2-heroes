@@ -1,4 +1,5 @@
 <h1>
   {{title}}
 </h1>
-<heroes-list [heroes]="allHeroes"></heroes-list>
+<heroes-list [heroes]="allHeroes" (heroToggled)="toggleHeroDetails($event)"></heroes-list>
+<hero-detail [hero]="selectedHero"></hero-detail>
