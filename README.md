@@ -2,6 +2,7 @@
 
 Angular2 is upon us all, and we all could use some heroes to help conquer this new challenge.
 
+[ Live Demo ](http://heroes.azharkhan.net)
 > Recruit some friends and build your own Super Team!
 
 ### Tooling
