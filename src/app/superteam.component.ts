@@ -9,14 +9,14 @@ import { Hero } from './heroes/hero.model';
   selector: 'superteam-app',
   directives: [HeroesComponent, HeroDetailComponent],
   templateUrl: 'superteam.component.html',
-  styleUrls: ['superteam.component.css', './shared/normalize.css'],
+  styleUrls: ['superteam.component.css', './shared/normalize.css', './shared/app.css'],
   providers: [HeroService]
 })
 export class SuperteamAppComponent implements OnInit {
 
   constructor(private heroService: HeroService) {}
   
-  title = 'Assemble your SuperTeam Here!';
+  title = 'SuperTeam';
   selectedHero: Hero;
   allHeroes: Hero[];
 

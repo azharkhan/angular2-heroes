@@ -1,3 +1,19 @@
 <div class="hero-detail" *ngIf="hero">
-  <div class="name">{{ hero.name }}</div>
+  <div class="picture">
+    <img [src]="hero.picture" />
+  </div>
+  <div class="info">
+    <div class="name">{{ hero.name }}</div>
+    <div class="identity">{{ hero.identity }}</div>
+    <form (submit)="addAbility()">
+      <input type="text" [(ngModel)]="newAbility" placeholder="Update Abilities" />
+    </form>
+    <p>Known Abilities:</p>
+    <ul>
+      <li *ngFor="let ability of hero.abilities">
+        {{ ability }}
+      </li>
+    </ul>
+
+  </div>
 </div>

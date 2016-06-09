@@ -1,34 +1,51 @@
 [
     {
         "id": "1",
-        "name": "Superman"
+        "name": "Superman",
+        "identity": "Clark Kent",
+        "abilities": ["Super Strength", "Heat Vision", "Flight", "Near Invulnerability", "Super Speed"],
+        "picture": "http://www.supermanhomepage.com/images/solicitation-artwork/June-2016/Skipped/Superman-Rebirth-Variant.jpg"
     },
     {
         "id": "2",
-        "name": "Batman"
+        "name": "Batman",
+        "identity": "Bruce Wayne",
+        "abilities": ["Genius Level Intelligence", "Peak Human Physical & Mental Conditioning", "Master Detective"],
+        "picture": "http://www.comicbookresources.com/imgsrv/imglib/300/0/1/Batman-Rebirth-Variant-Cover-by-Howard-Porter-4c108.jpg"
     },
     {
         "id": "3",
-        "name": "Spider-Man"
+        "name": "Spider-Man",
+        "identity": "Peter Parker",
+        "abilities": ["Superhuman Strength & Agility", "Genius-level Intellect", "Precognitive Spider-Sense", "Clings to Most Surfaces"],
+        "picture": "https://s-media-cache-ak0.pinimg.com/736x/8a/ef/03/8aef031d72b4c11269eb54db02dbdbe7.jpg"
     },
     {
         "id": "4",
-        "name": "Wonder Woman"
+        "name": "Wonder Woman",
+        "identity": "Diana Prince",
+        "abilities": ["Superhuman Strength", "Flight", "Indestructible Bracelets", "Lasso of Truth"],
+        "picture": "https://67.media.tumblr.com/87adbd548aac783594178508da961726/tumblr_o70ywc6UFw1qfrvhzo1_500.jpg"
     },
     {
         "id": "5",
-        "name": "Iron Man"
-    },
-    {
-        "id": "6",
-        "name": "Green Lantern"
+        "name": "Iron Man",
+        "identity": "Tony Stark",
+        "abilities": ["Genius-level Intellect", "Highly Proficient Scientist", "Accomplished Engineer & Business-person", "Technologically Advanced Armour"],
+        "picture": "https://geekfinityblog.files.wordpress.com/2015/08/invincible-iron-man-03-epting-variant.jpg"
     },
     {
         "id": "7",
-        "name": "Captain America"
+        "name": "Black Panther",
+        "identity": "T'Challa",
+        "picture": "https://s-media-cache-ak0.pinimg.com/736x/c6/8b/d1/c68bd11583ac95f9e238abdb9d5fbc94.jpg",
+        "abilities": ["Superhuman senses", "Skilled hunter", "tracker", "martial artist", "Genius-level Intellect", "Vibranium Suit"]
     },
     {
         "id": "8",
-        "name": "Iron Man"
+        "name": "Ms. Marvel",
+        "identity": "Kamala Khan",
+        "picture": "http://static.comicvine.com/uploads/original/0/40/4608491-cgxpsplw8aaiquj.jpg",
+        "abilities": ["Shapeshifting", "Healing Factor"]
     }
 ]

@@ -8,13 +8,17 @@ import { Hero } from '../heroes/hero.model';
   styleUrls: ['hero-detail.component.css']
 })
 
-export class HeroDetailComponent implements OnInit {
+export class HeroDetailComponent {
+
+  public newAbility:string;
+
+  addAbility() {
+    this.hero.abilities.push( this.newAbility );
+    this.newAbility = null;
+  }
 
   @Input() hero: Hero;
 
   constructor() {}
-
-  ngOnInit() {
-  }
 
 }
